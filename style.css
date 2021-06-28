@@ -1,0 +1,80 @@
+.card-title {
+  color: #FFC947;
+}
+.card-text {
+  color: #FAF1E6;
+}
+
+#container {
+  position: relative;
+  width: 850px;
+  height: 300px;
+  margin: 240px auto;
+  border-radius: 5px 5px 5px 5px;
+  background: #444444;
+  padding: 50px;
+  margin: 20px;
+  box-shadow:
+      inset 0 -3em 3em rgba(0,0,0,0.1),
+            0 0  0 2px rgb(255,255,255),
+            0.3em 0.3em 1em rgba(0,0,0,0.3)
+  }
+
+  .box {
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    width: calc(400px - 300px);
+    height: calc(300px - 200px);
+    background: #536162;
+    float: left;
+    margin: 10px;
+  }
+
+  .box .icon  {
+
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    margin: 30px;
+    padding: 15px;
+    width: 50%;
+    height: 50%;
+    background-color: #FFC93C;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+
+
+  }
+
+  .box:hover .icon {
+    top: 20px;
+    left: calc(30% - 10px);
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+  }
+
+
+
+.myButton {
+  float:right;
+  width: 70px;
+  height: 12px;
+	background-color:#FFC93C;
+	border-radius:28px;
+	border:2px solid #536162;
+	display:inline-block;
+	cursor:pointer;
+	font-family: serif;
+	font-size:15px;
+  color: #424642;
+	padding:15px;
+	text-decoration:none;
+
+}
+.myButton:hover {
+	background-color: #F3F4ED;
+.myButton:active {
+	position:relative;
+	top:1px;
+}
